@@ -1,0 +1,334 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 132vh;
+    background-color: rgb(4, 4, 4);
+    display: flex;
+}
+.left{
+    width: 27%;
+    height: 100vh;
+    position: fixed;
+    left:1px;
+}
+.topleft{
+    width: 93%;
+    height: 30vh;
+    background-color: rgb(36, 34, 33);
+    position: relative;
+    top:10px;
+    left:12px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.spotify{
+    position: relative;
+    top:20px;
+}
+.spotify img{
+    width: 28%;
+    padding-left: 0.8rem;
+}
+.spotify a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    padding-left: 6px;
+}
+.spotify span{
+    margin:10px;
+    color:white;
+    font-size:1.6rem
+}
+#search{
+    opacity: 0.7;
+}
+#search:hover{
+    opacity: 1;
+}
+#search1{
+    opacity: 0.7;
+}
+#search1:hover{
+    opacity: 1;
+}
+.bottomleft{
+    width: 93%;
+    height: 50vh;
+    background-color: rgb(36, 34, 33);
+    position: relative;
+    top:20px;
+    left:10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.lib{
+    position: relative;
+    top:20px;
+    left:10px;
+}
+.bottomleft a{
+    color: white;
+    text-decoration: none;
+    padding-left: 12px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.bottomleft a:hover{
+    opacity: 1;
+}
+.bottomleft span{
+    color: white;
+}
+#book{
+    opacity: 0.7;
+}
+#book:hover{
+    opacity: 1;
+}
+#shiv{
+    position: relative;
+    left:120px;
+    bottom:10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#shiv:hover{
+    opacity: 1;
+}
+.innerdiv{
+    width: 90%;
+    height: 60px;
+    background-color: rgb(58, 54, 53);
+    position:relative;
+    top:10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+.innerdiv h4,p{
+    color: white;
+}
+.lastportion{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(36, 34, 33);
+    position: relative;
+    top:40px;
+    align-items: center;
+}
+.lastportion a{
+    font-size: 12px;
+    line-height: 30px;
+}
+.english{
+    width: 100%;
+    height: 22vh;
+    background-color: rgb(36, 34, 33);
+    padding-top: 30px;
+}
+.english span{
+    position: relative;
+    left: 2.3rem;
+    top:0.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.english button{
+    background-color: rgb(36, 34, 33);
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    height: 34px;
+    border:0.1rem solid white;
+}
+.english button:hover{
+    border:0.2rem solid white;
+}
+/* -----------------------right postion start------------------ */
+.rightpart{
+    width: 73%;
+    height: 100vh;
+    background-color: rgb(32, 30, 30);
+    position: sticky;
+    left:21.1rem;
+    scroll-behavior: auto;
+}
+.nav{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(22, 20, 20);
+    background-color: rgba(#000,#012,#020,0.1);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    position: fixed;
+    left:21.1rem;
+    z-index: 1;
+}
+.nav1{
+    padding-left: 30px;
+}
+.nav1 span{
+    opacity:0.7;
+    font-size: 1.3rem;
+}
+.nav span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.nav2{
+    display: flex;
+    position: fixed;
+    left:63rem;
+}
+.nav2 button{
+    width: 8rem;
+    height: 3rem;
+   border-radius: 22px;
+   font-size: 1rem;
+   position: relative;
+   bottom:1.1rem;
+   right:1rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+.nav2 button:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px white;
+    border:none;
+}
+.nav2 p{
+    padding-right: 3rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.nav2 p:hover{
+    opacity: 1;
+}
+/* ------------------------spotify Playlist---------------------------- */
+.playlist{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(32, 29, 29);
+    display: flex;
+    padding-top:5rem;
+    justify-content: space-between;
+    color: white;
+}
+.play1 h2{
+    padding-left: 1rem;
+}
+.play1 h2:hover{
+    text-decoration: underline;
+}
+.play2 a{
+    padding-right: 1rem;
+    opacity: 0.7;
+}
+.play2 a:hover{
+    text-decoration: underline;
+}
+/* ---------------------------image part start------------------------------- */
+.fourdivcontainer{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.fourdiv{
+    width: 22%;
+    height: 52vh;
+    background-color: rgb(12, 12, 12);
+    position: relative;
+    left:1rem;
+    border-radius: 1rem;
+    margin:0.6rem;
+}
+.four1{
+    width: 85%;
+    height:28vh;
+    position: relative;
+    top:1rem;
+    left:1rem;
+    border-radius: 10px;
+    color: white;
+}
+.fourdiv:hover{
+    background-color: rgb(71, 69, 73);
+}
+.four1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.four1 h4{
+    padding:1rem 0 0 1rem;    
+}
+.four1 p{
+    font-size: 0.8rem;
+    word-spacing: 1px;
+    padding:0.4rem 0 0 1rem;  
+    opacity:0.7; 
+}
+.four1 p:hover{
+    opacity:1;
+}
+/* -----------------------------------footer part------------------- */
+.footer{
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+    display: flex;
+}
+.footer1{
+    width: 25%;
+    height: 38vh;
+    background-color: rgb(34, 31, 31);
+    color: white;
+}
+.footer1 h3,a{
+    color: white;
+    text-decoration: none;
+    padding: 2rem 0rem 0rem 2rem;
+}
+.footer i{
+    position: relative;
+    top:2rem;
+    font-size: 1.1rem;
+    background-color: rgb(59, 55, 55);
+    padding:1rem;
+    border-radius: 2rem;
+    margin:0.4rem;
+}
+.footer i:hover{
+    background-color: rgb(104, 99, 99);
+}
+.footer1 li{
+    list-style: none;
+    opacity:0.7;
+    line-height: 2rem;
+}
+.footer1 li:hover{
+    opacity:1;
+    text-decoration: underline;
+}
+.copyrigt{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(34, 31, 31);
+    position: relative;
+    top:3rem;
+}
+.copyright1 p{
+    position: relative;
+    left: 2rem;
+    top:2rem;
+}
